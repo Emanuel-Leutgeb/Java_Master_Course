@@ -10,5 +10,10 @@ public class Main {
         //AssignmentAndLogicalOperator.lesson2_2();
         //AssignmentAndLogicalOperator.lesson2_3();
         //AssignmentAndLogicalOperator.lesson2_4();
+
+        //Day 03
+        //Games.lesson5_1();
+        //Games.lesson5_2();
+        Games.lesson5_3();
     }
 }
