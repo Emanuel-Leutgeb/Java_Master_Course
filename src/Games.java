@@ -3,7 +3,7 @@ import java.util.*;
 public class Games {
 
     //Game FizzBuzz
-    public static void lesson5_1(){
+    public static void fizzBuzz(){
         System.out.println("Let's play FizzBuzz.");
         boolean sayNumber;
 
@@ -30,7 +30,7 @@ public class Games {
     }
 
     //Multiplications
-    public static void lesson5_2(){
+    public static void multiplications(){
         for(int i = 1; i <= 10; i++){
             System.out.printf("times %d \n", i);
             for( int j = 1; j <= 10; j++){
@@ -41,7 +41,7 @@ public class Games {
     }
 
     //Caesar Chiffre
-    public static void lesson5_3(){
+    public static void caesarChiffre(){
         //Random key to encrypt
         Random rnd = new Random();
         int rndNumber = rnd.nextInt(25) + 1; // From 1 to 25
@@ -116,7 +116,7 @@ public class Games {
     }
 
     //Maxima calculation
-    public static void lesson5_4(){
+    public static void maximaCalculation(){
         boolean addToList;
         int myNumber = 0;
         ArrayList<Integer> numbers = new ArrayList<>();

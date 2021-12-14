@@ -1,7 +1,7 @@
 public class VariableAndDatatype {
 
     //Tell me about yourself
-    public static void lesson1_1() {
+    public static void aboutMe() {
         byte age;
         String firstName;
         char sex;
@@ -22,7 +22,7 @@ public class VariableAndDatatype {
     }
 
     //Simple Calculations
-    public static void lesson1_2() {
+    public static void simpleCalculations() {
         //(Integer)
         int number1 = 25;
         int number2 = 20;
@@ -45,7 +45,7 @@ public class VariableAndDatatype {
     }
 
     //Working with Strings
-    public static void lesson1_3(){
+    public static void workingWithStrings(){
         String helloWorld = " Hello World! ";
         System.out.println(helloWorld + " contains " + helloWorld.length() + " letters.");
         System.out.println(helloWorld.toUpperCase());

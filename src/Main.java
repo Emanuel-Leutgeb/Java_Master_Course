@@ -3,23 +3,28 @@ public class Main {
     public static void main(String[] args) {
         //Testing.testing();
 
+        //Competence checks
+        //CompetenceCheck.leetspeek();
+
         //Week 01 - Day 01
-        //VariableAndDatatype.lesson1_1();
-        //VariableAndDatatype.lesson1_2();
-        //VariableAndDatatype.lesson1_3();
+        //VariableAndDatatype.aboutMe();
+        //VariableAndDatatype.simpleCalculations();
+        //VariableAndDatatype.workingWithStrings();
 
         //Week 01 - Day 02
-        //AssignmentAndLogicalOperator.lesson2_2();
-        //AssignmentAndLogicalOperator.lesson2_3();
-        //AssignmentAndLogicalOperator.lesson2_4();
+        //AssignmentAndLogicalOperator.CharacteristicsOfANumber();
+        //AssignmentAndLogicalOperator.freeTimeOrWorkTime();
+        //AssignmentAndLogicalOperator.translatingGrades();
 
         //Week 01 - Day 03
-        //Games.lesson5_1();
-        //Games.lesson5_2();
-        //Games.lesson5_3();
-        //Games.lesson5_4();
+        //Games.fizzBuzz();
+        //Games.multiplications();
+        //Games.caesarChiffre();
+        //Games.maximaCalculation();
 
-        //Competence checks
-        //Competence_check.competence_check_01();
+        //Week 02 - Day 01
+
+
+
     }
 }

@@ -1,7 +1,7 @@
 public class AssignmentAndLogicalOperator {
 
     //Characteristics of a number
-    public static void lesson2_2(){
+    public static void CharacteristicsOfANumber(){
         int luckyNumber = 70;
         System.out.printf("My lucky number is %d \n", luckyNumber);
 
@@ -27,7 +27,7 @@ public class AssignmentAndLogicalOperator {
     }
 
     //free time or work time?
-    public static void lesson2_3(){
+    public static void freeTimeOrWorkTime(){
         System.out.println("Look if you are in working time or not.");
 
         System.out.println("Please enter a whole hour number.");
@@ -49,7 +49,7 @@ public class AssignmentAndLogicalOperator {
     }
 
     //Translating grades
-    public static void lesson2_4(){
+    public static void translatingGrades(){
         System.out.println("Please enter your grade.");
         int userGrade = Scanning.scan.nextInt();
 

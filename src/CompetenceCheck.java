@@ -1,7 +1,7 @@
-public class Competence_check {
+public class CompetenceCheck {
 
     //Leetspeek Translator
-    public static void competence_check_01() {
+    public static void leetspeek() {
         //Asking for a text to encrypt
         System.out.println("Please enter your message for encryption");
         String inputWords = Scanning.scan.nextLine();
