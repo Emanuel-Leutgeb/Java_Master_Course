@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.IntStream;
 
 public class Games {
 
@@ -145,6 +146,107 @@ public class Games {
                 }
             }
             System.out.println("The max value is: " + Collections.max(numbers));
+        }
+    }
+
+    //Bingo card generator
+    public static void bingoCard(){
+        Random rnd = new Random();
+
+        int [] B = new int[5];
+        int [] I = new int[5];
+        int [] N = new int[4];
+        int [] G = new int[5];
+        int [] O = new int[5];
+
+        boolean numberExist;
+        //B
+        for(int i = 0; i < B.length; i++){ //ändern bis array voll ist
+            int rndNumber = rnd.nextInt(15) + 1; // From 1 to 15
+
+            numberExist = IntStream.of(B).anyMatch(x -> x == rndNumber);
+            if(!numberExist){
+                B[i]=rndNumber;
+            }
+            else {
+                i--;
+            }
+        }
+        //I
+        for(int i = 0; i < I.length; i++){
+            int rndNumber = rnd.nextInt(15) + 16; //von 16 bis 30
+
+            numberExist = IntStream.of(I).anyMatch(x -> x == rndNumber);
+            if(!numberExist){
+                I[i]=rndNumber;
+            }
+            else {
+                i--;
+            }
+        }
+        //N
+        for(int i = 0; i < N.length; i++){
+            int rndNumber = rnd.nextInt(15) + 31; //von 31 bis 45
+            numberExist = IntStream.of(N).anyMatch(x -> x == rndNumber);
+            if(!numberExist){
+                N[i]=rndNumber;
+            }
+            else {
+                i--;
+            }
+
+        }
+        //G
+        for(int i = 0; i < G.length; i++){
+            int rndNumber = rnd.nextInt(15) + 46; //von 46 bis 60
+
+            numberExist = IntStream.of(G).anyMatch(x -> x == rndNumber);
+            if(!numberExist){
+                G[i]=rndNumber;
+            }
+            else {
+                i--;
+            }
+        }
+        //O
+        for(int i = 0; i < O.length; i++){
+            int rndNumber = rnd.nextInt(15) + 61; //von 61 bis 75
+
+            numberExist = IntStream.of(O).anyMatch(x -> x == rndNumber);
+            if(!numberExist){
+                O[i]=rndNumber;
+            }
+            else {
+                i--;
+            }
+        }
+
+        //Print to Console
+        int freeSpace;
+        System.out.println("B\t|\tI\t|\tN\t|\tG\t|\tO\t|\n");
+
+        for (int i = 0; i < 5; i++) {
+            System.out.print(B[i]);
+            System.out.print("\t|\t");
+            System.out.print(I[i]);
+            System.out.print("\t|\t");
+            if(i == 2){
+                System.out.print(" ");
+            }
+            else{
+                if (i > 2){
+                    freeSpace = i - 1;
+                    System.out.print(N[freeSpace]);
+                }
+                else{
+                    System.out.print(N[i]);
+                }
+            }
+            System.out.print("\t|\t");
+            System.out.print(G[i]);
+            System.out.print("\t|\t");
+            System.out.print(O[i]);
+            System.out.print("\t|\n");
         }
     }
 }

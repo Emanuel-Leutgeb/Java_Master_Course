@@ -23,6 +23,7 @@ public class Main {
         //Games.maximaCalculation();
 
         //Week 02 - Day 01
+        Games.bingoCard();
 
 
 
