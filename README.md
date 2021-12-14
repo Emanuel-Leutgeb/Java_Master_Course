@@ -1,6 +1,6 @@
 # Java Masterkurs
 _@ CODERS.BAY by **Emanuel Leutgeb**_
-######______________________________
+_____________________________________
 ## Week 01
 ### Day 01
     Week 01:
@@ -25,6 +25,6 @@ Using Arrays to its best:
 
 
 
-######______________________________
+_____________________________________
     for further information please have a look at the Git commit`s
-######______________________________
+_____________________________________
