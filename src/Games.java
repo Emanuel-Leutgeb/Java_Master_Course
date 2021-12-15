@@ -160,8 +160,9 @@ public class Games {
         int [] O = new int[5];
 
         boolean numberExist;
+
         //B
-        for(int i = 0; i < B.length; i++){ //ändern bis array voll ist
+        for(int i = 0; i < B.length; i++){
             int rndNumber = rnd.nextInt(15) + 1; // From 1 to 15
 
             numberExist = IntStream.of(B).anyMatch(x -> x == rndNumber);
@@ -213,6 +214,7 @@ public class Games {
             int rndNumber = rnd.nextInt(15) + 61; //von 61 bis 75
 
             numberExist = IntStream.of(O).anyMatch(x -> x == rndNumber);
+            //IntStream.of(B).forEach(element -> System.out.println(element));
             if(!numberExist){
                 O[i]=rndNumber;
             }
@@ -247,6 +249,44 @@ public class Games {
             System.out.print("\t|\t");
             System.out.print(O[i]);
             System.out.print("\t|\n");
+        }
+    }
+
+    public static void bingoCard2(){
+        Random rnd = new Random();
+        int[][] bingo = new int[5][5];
+        boolean numberExist;
+        int randomSelector = 1;
+
+        for (int i = 0; i < bingo.length; i++){
+            for (int j = 0; j < bingo[i].length; j++){
+                int rndNumber = rnd.nextInt(15) + randomSelector; //always in increments of 15
+
+                numberExist = IntStream.of(bingo[i]).anyMatch(x -> x == rndNumber);
+                if(!numberExist){
+                    bingo[i][j]=rndNumber;
+                }
+                else {
+                    j--;
+                }
+            }
+            randomSelector += 15;
+        }
+
+        int freeSpace;
+        for (int i = 0; i < bingo.length; i++){
+            if (i == 0){
+                System.out.println("B\t|\tI\t|\tN\t|\tG\t|\tO\t|\n");
+            }
+            for (int j = 0; j < bingo[i].length; j++){
+                if(i == 2 && j == 2){
+                    System.out.print(" " + "\t|\t");
+                }
+                else{
+                    System.out.print(bingo[j][i] + "\t|\t");
+                }
+            }
+            System.out.println();
         }
     }
 }

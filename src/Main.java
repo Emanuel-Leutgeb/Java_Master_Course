@@ -23,8 +23,14 @@ public class Main {
         //Games.maximaCalculation();
 
         //Week 02 - Day 01
-        Games.bingoCard();
+        //Games.bingoCard();
+        Games.bingoCard2();
 
+        //Week 02 - Day 02
+        SortingAlgorithm.insertion();
+        SortingAlgorithm.selection();
+        SortingAlgorithm.bubble();
+        SortingAlgorithm.divideAndConquer();
 
 
     }
