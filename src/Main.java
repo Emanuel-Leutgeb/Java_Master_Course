@@ -5,6 +5,7 @@ public class Main {
 
         //Competence checks
         //CompetenceCheck.leetspeek();
+        //CompetenceCheck.selection();
 
         //Week 01 - Day 01
         //VariableAndDatatype.aboutMe();
@@ -24,13 +25,14 @@ public class Main {
 
         //Week 02 - Day 01
         //Games.bingoCard();
-        Games.bingoCard2();
+        //Games.bingoCard2();
 
         //Week 02 - Day 02
-        SortingAlgorithm.insertion();
-        SortingAlgorithm.selection();
-        SortingAlgorithm.bubble();
+        //SortingAlgorithm.insertion();
+        //SortingAlgorithm.bubble();
         SortingAlgorithm.divideAndConquer();
+
+
 
 
     }

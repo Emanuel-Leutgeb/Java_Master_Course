@@ -32,10 +32,18 @@ Using Arrays to its best:
 * Live coding
 * Sorting algorithm
 
+### Day 04
 
+Career Orientation (BO)
 
-
-
+### Day 05
+    Week 02:
+        Lesson Day 02 to Day 04
+Understanding and Creating sorting algorithm
+* Insertion sort
+* Bubble sort
+* Divide and conquer*
+* Selection sort
 
 _____________________________________
     for further information please have a look at the Git commit`s
