@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         //Testing.testing();
 
         //Competence checks
@@ -27,10 +27,16 @@ public class Main {
         //Games.bingoCard();
         //Games.bingoCard2();
 
-        //Week 02 - Day 02
+        //Week 02 - Day 02 to Day 04
         //SortingAlgorithm.insertion();
         //SortingAlgorithm.bubble();
         SortingAlgorithm.divideAndConquer();
+
+        //Week 03 - Day 01
+        //Methods.fizzBuzzMethods();
+        Methods.gameOfLife();
+
+
 
 
 
