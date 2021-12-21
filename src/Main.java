@@ -6,6 +6,7 @@ public class Main {
         //Competence checks
         //CompetenceCheck.leetspeek();
         //CompetenceCheck.selection();
+        //CompetenceCheck.merge();
 
         //Week 01 - Day 01
         //VariableAndDatatype.aboutMe();
@@ -30,16 +31,11 @@ public class Main {
         //Week 02 - Day 02 to Day 04
         //SortingAlgorithm.insertion();
         //SortingAlgorithm.bubble();
-        SortingAlgorithm.divideAndConquer();
+        //SortingAlgorithm.divideAndConquer();
 
         //Week 03 - Day 01
         //Methods.fizzBuzzMethods();
-        Methods.gameOfLife();
-
-
-
-
-
+        //Methods.gameOfLife();
 
     }
 }

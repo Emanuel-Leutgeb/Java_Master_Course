@@ -3,24 +3,22 @@ import java.util.Random;
 public class Methods {
 
     //Game FizzBuzz with methods
-    public static void fizzBuzzMethods(){
+    public static void fizzBuzzMethods() {
         System.out.println("Let's play FizzBuzz.");
         boolean sayNumber;
 
-        for(int i = 1; i < 101; i++){
+        for (int i = 1; i < 101; i++) {
             sayNumber = true;
 
-            if (i % 3 == 0 & i % 5 == 0){
+            if (i % 3 == 0 & i % 5 == 0) {
                 //fizzBuzz();
                 callName("FizzBuzz");
                 sayNumber = false;
-            }
-            else if (i % 3 == 0){
+            } else if (i % 3 == 0) {
                 //fizz();
                 callName("Fizz");
                 sayNumber = false;
-            }
-            else if (i % 5 == 0){
+            } else if (i % 5 == 0) {
                 //buzz();
                 callName("Buzz");
                 sayNumber = false;
@@ -33,20 +31,20 @@ public class Methods {
     }
 
     //Methods - Way 01
-    private static void fizz(){
+    private static void fizz() {
         System.out.println("Fizz");
     }
 
-    private static void buzz(){
+    private static void buzz() {
         System.out.println("Buzz");
     }
 
-    private static void fizzBuzz(){
+    private static void fizzBuzz() {
         System.out.println("FizzBuzz");
     }
 
     //Methods - Way 02
-    private static void callName(String name){
+    private static void callName(String name) {
         System.out.println(name);
     }
 
@@ -56,26 +54,17 @@ public class Methods {
         boolean[][] playground = playgroundSetup(); // true = Life & false = Dead
 
 
-        while (true){
-            /*
-            System.out.println("With 'Q' you can Quit the Game.");
-            String inputUser = Scanning.scan.nextLine();
-
-
-            if (inputUser.equals("Q") || inputUser.equals("q")){
-                //Game stop
-                System.out.println("Game has stopped");
-            }
-            */
+        int i = 0;
+        while (i < 50) {
 
             printPlayground(playground);
             checkLife(playground);
             Thread.sleep(1000);
+            i++;
         }
-        
     }
 
-    private static boolean[][] playgroundSetup(){
+    private static boolean[][] playgroundSetup() {
         System.out.println("How big should be your Playground");
         int playgroundSize = Scanning.scan.nextInt();
 
@@ -83,23 +72,21 @@ public class Methods {
         Random rnd = new Random();
         for (int i = 0; i < playground.length; i++) {
             for (int j = 0; j < playground.length; j++) {
-                playground[i][j] = rnd.nextInt(10)<1;
+                playground[i][j] = rnd.nextInt(10) < 1;
             }
         }
         return playground;
     }
 
-    private static void printPlayground(boolean[][] playground){
+    private static void printPlayground(boolean[][] playground) {
         for (int i = 0; i < playground.length; i++) {
             for (int j = 0; j < playground.length; j++) {
-                if (i == 0 || j == 0 || i == playground.length - 1 || j == playground.length - 1){
+                if (i == 0 || j == 0 || i == playground.length - 1 || j == playground.length - 1) {
                     System.out.print("#" + "\t");
                     playground[i][j] = false;
-                }
-                else if (playground[i][j]){
-                    System.out.print("X" + "\t");
-                }
-                else {
+                } else if (playground[i][j]) {
+                    System.out.print("O" + "\t");
+                } else {
                     System.out.print(" " + "\t");
                 }
             }
@@ -107,16 +94,14 @@ public class Methods {
         }
     }
 
-    private static void checkLife(boolean[][] playground){
-        for (int i = 0; i < playground.length; i++){
-            for (int j = 0; j < playground[i].length; j++){
+    private static void checkLife(boolean[][] playground) {
+        for (int i = 0; i < playground.length; i++) {
+            for (int j = 0; j < playground[i].length; j++) {
 
-
-                if (i == 0 || i == playground.length - 1){
+                if (i == 0 || i == playground.length - 1) {
                     break;
                 }
-
-                if (j == 0 || j == playground.length - 1){
+                if (j == 0 || j == playground.length - 1) {
                     continue;
                 }
                 int cells = 0;
