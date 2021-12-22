@@ -45,6 +45,26 @@ Understanding and Creating sorting algorithm
 * Divide and conquer*
 * Selection sort
 
+### Day 06
+    Week 03:
+        Lesson Day 01 to Day 02
+Using methods more specific
+* public / private
+
+### Day 07
+    Week 03:
+        Lesson Day 02 to Day 03
+Using methods more specific
+* void or return value
+
+### Day 08
+    Week 04:
+        Lesson Day 01
+datastructures
+* HashMap / HashSet
+* Collections
+* return value
+
 _____________________________________
     for further information please have a look at the Git commit`s
 _____________________________________
