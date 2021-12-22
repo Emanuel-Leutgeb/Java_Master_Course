@@ -18,7 +18,7 @@ public class VariableAndDatatype {
         grade = 2.5;
         married = false;
 
-        System.out.printf("Hello my name is %s %s. I'm %s years young and i was born on %s. My sex is (%s). My married status is %s and in school is my grade point average %.2f.", firstName, lastName, age, dateOfBirth, sex, married, grade );
+        System.out.printf("Hello my name is %s %s. I'm %s years young and i was born on %s. My sex is (%s). My married status is %s and in school is my grade point average %.2f.", firstName, lastName, age, dateOfBirth, sex, married, grade);
     }
 
     //Simple Calculations
@@ -30,7 +30,7 @@ public class VariableAndDatatype {
         System.out.printf("%d + %d = %d \n", number1, number2, number1 + number2);
         System.out.printf("%d - %d = %d \n", number1, number2, number1 - number2);
         System.out.printf("%d * %d = %d \n", number1, number2, number1 * number2);
-        System.out.printf("%d / %d = %.2f \n", number1, number2, (double)number1 / number2);
+        System.out.printf("%d / %d = %.2f \n", number1, number2, (double) number1 / number2);
         System.out.printf("%d %% %d = %d \n", number1, number2, number1 % number2);
 
         //(double)
@@ -45,14 +45,14 @@ public class VariableAndDatatype {
     }
 
     //Working with Strings
-    public static void workingWithStrings(){
+    public static void workingWithStrings() {
         String helloWorld = " Hello World! ";
         System.out.println(helloWorld + " contains " + helloWorld.length() + " letters.");
         System.out.println(helloWorld.toUpperCase());
         System.out.println(helloWorld.toLowerCase());
         System.out.println(helloWorld.replace("World", "Codersbay"));
         System.out.println(helloWorld.trim());
-        for(int i = 1; i <= 15; i++){
+        for (int i = 1; i <= 15; i++) {
             System.out.println(helloWorld + i);
         }
     }

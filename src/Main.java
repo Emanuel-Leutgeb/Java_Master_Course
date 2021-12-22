@@ -33,9 +33,16 @@ public class Main {
         //SortingAlgorithm.bubble();
         //SortingAlgorithm.divideAndConquer();
 
-        //Week 03 - Day 01
+        //Week 03 - Day 01 to Day 02
         //Methods.fizzBuzzMethods();
         //Methods.gameOfLife();
 
+        //Week 04 - Day 01
+        //Datastructures.setTheory();
+        //Datastructures.dictionary();
+        //Datastructures.bubbleList();
+
+        //Week 05 - Day 01
+        //UnitTesting
     }
 }

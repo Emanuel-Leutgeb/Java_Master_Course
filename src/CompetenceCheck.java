@@ -135,13 +135,13 @@ public class CompetenceCheck {
     }
 
     //Selection sort
-    public static void selection(){
-        int [] arr  = {24, 22, 21, 13, 15, 18, 11, 9, 3, 2, 8, 12, -1, 5, 10, 23, 20, 6, 4, 19, 16, 7, 14, 17, 24, 22, 0, 21, 13, -15, 18, 11, 9, 3, 2, 8, 0, 12, 1, 5, 10, 23, 20, 6, 4, 19, 16, 7, 14, 17};
+    public static void selection() {
+        int[] arr = {24, 22, 21, 13, 15, 18, 11, 9, 3, 2, 8, 12, -1, 5, 10, 23, 20, 6, 4, 19, 16, 7, 14, 17, 24, 22, 0, 21, 13, -15, 18, 11, 9, 3, 2, 8, 0, 12, 1, 5, 10, 23, 20, 6, 4, 19, 16, 7, 14, 17};
 
         for (int i = 0; i < arr.length - 1; i++) {
 
             int lowestNumber = i;
-            for (int j = i + 1; j < arr.length; j++){
+            for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j] < arr[lowestNumber])
                     lowestNumber = j;
             }
@@ -156,11 +156,11 @@ public class CompetenceCheck {
     }
 
     //Merge sort
-    public static void merge(){
+    public static void merge() {
         //fill arr with random numbers from -50 to 100 with 50 different numbers
 
         Random random = new Random();
-        int[] arr = random.ints(4, -50,100).toArray();
+        int[] arr = random.ints(4, -50, 100).toArray();
 
         //Print array
         System.out.println("Unsorted\n" + Arrays.toString(arr));
