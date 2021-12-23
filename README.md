@@ -1,4 +1,4 @@
-# Java Master course
+# Java Master Course
 _@ Coders.Bay by **Emanuel Leutgeb**_
 _____________________________________
 
@@ -65,7 +65,7 @@ datastructures
 * Collections
 * return value
 
-### Day 08
+### Day 09
     Week 04:
         Lesson Day 01
 datastructures
