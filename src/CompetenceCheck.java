@@ -189,6 +189,7 @@ public class CompetenceCheck {
         int[] leftSideArray = new int[middlePoint - leftSide + 1];
         int[] rightSideArray = new int[rightSide - middlePoint];
 
+        //Way 2 by Alex with <3
         //int[] leftArray = Arrays.copyOfRange(arr, 0, arr.length / 2); //better for understanding
         //arr | 0 is incl. | arr.length / 2 is excl.
         //int[] rightArray = Arrays.copyOfRange(arr, arr.length / 2, arr.length); //better for understanding
@@ -230,5 +231,6 @@ public class CompetenceCheck {
             originalIndex++;
         }
     }
+
 }
 

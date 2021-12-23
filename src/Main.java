@@ -38,7 +38,8 @@ public class Main {
         //Methods.gameOfLife();
 
         //Week 04 - Day 01
-        //Datastructures.setTheory();
+        //Datastructures.setTheoryArrayList();
+        //Datastructures.setTheoryHashSet();
         //Datastructures.dictionary();
         //Datastructures.bubbleList();
 
