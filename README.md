@@ -1,5 +1,5 @@
-# Java Masterkurs
-_@ CODERS.BAY by **Emanuel Leutgeb**_
+# Java Master course
+_@ Coders.Bay by **Emanuel Leutgeb**_
 _____________________________________
 
 ## Week 01
@@ -61,10 +61,15 @@ Using methods more specific
     Week 04:
         Lesson Day 01
 datastructures
-* HashMap / HashSet
+* HashMap
 * Collections
 * return value
 
+### Day 08
+    Week 04:
+        Lesson Day 01
+datastructures
+* HashSet
 _____________________________________
     for further information please have a look at the Git commit`s
 _____________________________________
