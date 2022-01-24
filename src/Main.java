@@ -52,6 +52,6 @@ public class Main {
 //        //check also with JunitTest - UnitTesting - UnitTestingTest
 //
 //        //Week 06 - Day 01
-        //DoubleLinkedList.//doubleLinkedList();
+        DoubleLinkedList.doubleLinkedList();
     }
 }
