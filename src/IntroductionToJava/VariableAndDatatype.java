@@ -1,3 +1,5 @@
+package IntroductionToJava;
+
 public class VariableAndDatatype {
 
     //Tell me about yourself

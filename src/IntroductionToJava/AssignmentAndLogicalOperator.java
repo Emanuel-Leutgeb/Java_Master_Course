@@ -1,3 +1,7 @@
+package IntroductionToJava;
+
+import Scanning.Scanning;
+
 public class AssignmentAndLogicalOperator {
 
     //Characteristics of a number

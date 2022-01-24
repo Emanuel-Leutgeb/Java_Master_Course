@@ -1,58 +1,13 @@
+package Methods;
+
+import Scanning.Scanning;
 import java.util.Random;
 
-public class Methods {
-
-    //Game FizzBuzz with methods
-    public static void fizzBuzzMethods() {
-        System.out.println("Let's play FizzBuzz.");
-        boolean sayNumber;
-
-        for (int i = 1; i < 101; i++) {
-            sayNumber = true;
-
-            if (i % 3 == 0 & i % 5 == 0) {
-                //fizzBuzz();
-                callName("FizzBuzz");
-                sayNumber = false;
-            } else if (i % 3 == 0) {
-                //fizz();
-                callName("Fizz");
-                sayNumber = false;
-            } else if (i % 5 == 0) {
-                //buzz();
-                callName("Buzz");
-                sayNumber = false;
-            }
-
-            if (sayNumber) {
-                System.out.println(i);
-            }
-        }
-    }
-
-    //Methods - Way 01
-    private static void fizz() {
-        System.out.println("Fizz");
-    }
-
-    private static void buzz() {
-        System.out.println("Buzz");
-    }
-
-    private static void fizzBuzz() {
-        System.out.println("FizzBuzz");
-    }
-
-    //Methods - Way 02
-    private static void callName(String name) {
-        System.out.println(name);
-    }
-
-    //Game of Life
+//Game of Life
+public class GameOfLife {
     public static void gameOfLife() throws InterruptedException {
         System.out.println("Welcome to Game of Life");
         boolean[][] playground = playgroundSetup(); // true = Life & false = Dead
-
 
         int i = 0;
         while (i < 50) {

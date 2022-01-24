@@ -1,0 +1,31 @@
+/*most of the commune assert*/
+//      assertEquals();
+//      assertNotEquals();
+//      assertTrue();
+//      assertFalse();
+//      assertNull();
+//      assertNotNull();
+//      assertThrows()
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*possible Test ways*/
+//    @Test
+//    void add(){
+//    }
+//
+//    @BeforeAll
+//    void add(){
+//    }
+//
+//    @BeforeEach
+//    void add(){
+//    }
+//
+//    @AfterAll
+//    void add(){
+//    }
+//
+//    @AfterEach
+//    void add(){
+//    }
