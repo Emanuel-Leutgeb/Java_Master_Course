@@ -1,58 +1,130 @@
 package OOP_1;
 
 public class DoubleLinkedList {
-    Node head;
+    Node head = null;
+    Node tail = null;
 
     static class Node {
         int data;
         Node prev;
         Node next;
 
-        Node(int d, Node previous) {
-            data = d;
-            next = null;
-            prev = previous;
+        Node(int data) {
+            this.data = data;
         }
     }
 
-    public static void doubleLinkedList() {
+    public void add(int data) {
+        Node newNode = new Node(data);
+        //if list is empty, head and tail points to newNode
+        if (head == null) {
+            head = tail = newNode;
+            //head's previous will be null
+            head.prev = null;
+            //tail's next will be null
+            tail.next = null;
+        } else {
+            //add newNode to the end of list. tail->next set to newNode
+            tail.next = newNode;
+            //newNode->previous set to tail
+            newNode.prev = tail;
+            //newNode becomes new tail
+            tail = newNode;
+            //tail's next point to null
+            tail.next = null;
+        }
+    }
 
-        DoubleLinkedList myList = new DoubleLinkedList();
+    public void print() {
+        Node current = head;
+        if (head == null) {
+            System.out.println("Double linked list is empty \n");
+            return;
+        }
+        System.out.println("Nodes of double linked list: ");
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.next;
+        }
+        System.out.println();
+    }
 
-        myList.head = new DoubleLinkedList.Node(0, null);
-        Node firstElement = new Node(1, myList.head);
-        Node secondElement = new Node(2, firstElement);
-        Node thirdElement = new Node(3, secondElement);
-        Node fourthElement = new Node(4, thirdElement);
+    public void printReverse() {
+        Node current = tail;
+        if (head == null) {
+            System.out.println("Double linked list is empty \n");
+            return;
+        }
+        System.out.println("Nodes of double linked list: ");
+        while (current != null) {
+            System.out.print(current.data + " ");
+            current = current.prev;
+        }
+        System.out.println();
+    }
 
-        myList.head.next = firstElement;
-        firstElement.next = secondElement;
-        secondElement.next = thirdElement;
-        thirdElement.next = fourthElement;
+    public void size() {
+        Node current = head;
+        if (head == null) {
+            System.out.println("Double linked list is empty \n");
+            return;
+        }
+        int length = 1;
+        for (; current.next != null; length++) {
+            current = current.next;
+        }
+        System.out.printf("Double linked list has a size of %d \n", length);
+    }
 
-        //print list forward
-        for (Node element = myList.head; element != null; element = element.next) {
-            System.out.println(element.data);
+    public void contains(int data) {    //int data
+        Node current = head;
+        if (head == null) {
+            System.out.println("Double linked list is empty \n");
+            return;
         }
 
-        //appendChild
-        Node fifthElement = new Node(5, null);
-        Node lastElement = myList.head;
-        while (lastElement.next != null) {
-            lastElement = lastElement.next;
+        while (current != null) {
+            if (current.data == data) {
+                System.out.printf("Double linked list contains the %d \n", data);
+                return;
+            }
+            current = current.next;
         }
-        lastElement.next = fifthElement;
-        fifthElement.prev = lastElement;
+        System.out.println();
+    }
 
-        //print list backward
-        for (lastElement = myList.head; lastElement.next != null; lastElement = lastElement.next){
+    public void remove(int element) {
+        Node current = head;
+        int count = 0;
+
+        if (head == null) {
+            System.out.println("Double linked list is empty \n");
+            return;
         }
 
-        System.out.println("Print list backward.");
-        for (lastElement = lastElement; lastElement != null; lastElement = lastElement.prev) {
-            System.out.println(lastElement.data);
+        while (current != null) {
+            if (element == count) {
+                if (head == current) {
+                    head = current.next;
+                }
+                if (current.next != null) {
+                    current.next.prev = current.prev;
+                }
+                if (current.prev != null) {
+                    current.prev.next = current.next;
+                }
+                return;
+            }
+            current = current.next;
+            count++;
         }
+    }
 
+    public void clear() {   //Clear List
+//        head.next = tail;
+//        tail.prev = head;
+        head = null;
+        tail = null;
+        System.out.println("Double linked list is cleared");
     }
 }
-

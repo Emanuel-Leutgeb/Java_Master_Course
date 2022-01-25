@@ -1,4 +1,6 @@
 import OOP_1.DoubleLinkedList;
+import OOP_1.PeopleManagementSystem;
+import OOP_1.Sex;
 
 public class Main {
 
@@ -52,6 +54,25 @@ public class Main {
 //        //check also with JunitTest - UnitTesting - UnitTestingTest
 //
 //        //Week 06 - Day 01
-        DoubleLinkedList.doubleLinkedList();
+//        DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
+//        doubleLinkedList.add(10);
+//        doubleLinkedList.add(20);
+//        doubleLinkedList.add(30);
+//        doubleLinkedList.add(40);
+//        doubleLinkedList.add(50);
+//        doubleLinkedList.print();
+//        doubleLinkedList.printReverse();
+//        doubleLinkedList.size();
+//        doubleLinkedList.contains(10);
+//        doubleLinkedList.remove(3);
+//        doubleLinkedList.print();
+//        doubleLinkedList.clear();
+//        doubleLinkedList.print();
+//
+//        //Week 06 - Day 01
+//        PeopleManagementSystem peopleManagementSystem = new PeopleManagementSystem();
+//        peopleManagementSystem.createPerson("Emanuel", "Leutgeb");
+//        peopleManagementSystem.createPerson("Emanuel", "Leutgeb", "27.09.1996", 25, 4600, "Wels", "Birkenstraße 6", Sex.MALE);
+//        peopleManagementSystem.createPerson("Emanuel", 25, "27.09.1996");
     }
 }
