@@ -33,10 +33,6 @@ Using Arrays to its best:
 * Sorting algorithm
 
 ### Day 04
-
-Career Orientation (BO)
-
-### Day 05
     Week 02:
         Lesson Day 02 to Day 04
 Understanding and Creating sorting algorithm
@@ -45,31 +41,51 @@ Understanding and Creating sorting algorithm
 * Divide and conquer*
 * Selection sort
 
-### Day 06
+## Week 02
+
+### Day 05
     Week 03:
         Lesson Day 01 to Day 02
 Using methods more specific
 * public / private
 
-### Day 07
+### Day 06
     Week 03:
         Lesson Day 02 to Day 03
 Using methods more specific
 * void or return value
 
-### Day 08
+### Day 07
     Week 04:
         Lesson Day 01
-datastructures
+Datastructures
 * HashMap
 * Collections
 * return value
 
-### Day 09
+### Day 08
     Week 04:
         Lesson Day 01
-datastructures
+Datastructures
 * HashSet
+
+## Week 03
+
+### Day 09
+    Week 05:
+        Lesson Day 01 to Day 02
+Unit Testing
+* Unit Testing Theories
+* SumOfTwo with Unit Test
+* Change Project setup
+
+### Day 10
+    Week 06:
+        Lesson Day 01
+OOP 1
+* OOP Theories
+* Double Linked List
+* People Management System
 _____________________________________
     for further information please have a look at the Git commit`s
 _____________________________________
