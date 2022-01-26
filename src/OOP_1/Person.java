@@ -39,4 +39,21 @@ public class Person {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+    public Person(String firstName, String lastName, String birthday, int age, Address address, Sex sex) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthday = birthday;
+        this.age = age;
+        this.address = address;
+        this.sex = sex;
+    }
+
+    public Person(String firstName, String lastName) {
+        this(firstName, lastName, "unknown", 0, null, Sex.UNKNOWN);
+    }
+
+    public Person(String firstName, String birthday, int age) {
+        this(firstName, "unknown", birthday, age, null, Sex.UNKNOWN);
+    }
 }
