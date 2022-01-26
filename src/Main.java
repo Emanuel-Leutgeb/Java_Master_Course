@@ -1,6 +1,7 @@
 import OOP_1.DoubleLinkedList;
 import OOP_1.PeopleManagementSystem;
 import OOP_1.Sex;
+import Testing.Testing;
 
 public class Main {
 
@@ -56,6 +57,7 @@ public class Main {
 //        //Week 06 - Day 01
 //        DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
 //        doubleLinkedList.add(10);
+//        doubleLinkedList.print();
 //        doubleLinkedList.add(20);
 //        doubleLinkedList.add(30);
 //        doubleLinkedList.add(40);
@@ -69,10 +71,30 @@ public class Main {
 //        doubleLinkedList.clear();
 //        doubleLinkedList.print();
 //
-//        //Week 06 - Day 01
+//        //Week 06 - Day 02
 //        PeopleManagementSystem peopleManagementSystem = new PeopleManagementSystem();
 //        peopleManagementSystem.createPerson("Emanuel", "Leutgeb");
 //        peopleManagementSystem.createPerson("Emanuel", "Leutgeb", "27.09.1996", 25, 4600, "Wels", "Birkenstraße 6", Sex.MALE);
 //        peopleManagementSystem.createPerson("Emanuel", 25, "27.09.1996");
+//
+//        //Week 07 - Day 01
+        Testing testing = new Testing();
+        testing.add(10);
+        testing.add(20);
+        testing.add(30);
+        testing.add(40);
+        testing.add(50);
+        testing.size();
+        System.out.println("Print Forward");
+        testing.print();
+        System.out.println("Print Backward");
+        testing.printReverse();
+        testing.contains(20);
+        testing.remove(-1);
+        testing.print();
+        testing.clear();
+        testing.print();
+        testing.size();
+
     }
 }

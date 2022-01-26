@@ -16,21 +16,14 @@ public class DoubleLinkedList {
 
     public void add(int data) {
         Node newNode = new Node(data);
-        //if list is empty, head and tail points to newNode
         if (head == null) {
             head = tail = newNode;
-            //head's previous will be null
             head.prev = null;
-            //tail's next will be null
             tail.next = null;
         } else {
-            //add newNode to the end of list. tail->next set to newNode
             tail.next = newNode;
-            //newNode->previous set to tail
             newNode.prev = tail;
-            //newNode becomes new tail
             tail = newNode;
-            //tail's next point to null
             tail.next = null;
         }
     }
