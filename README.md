@@ -81,11 +81,18 @@ Unit Testing
 
 ### Day 10
     Week 06:
-        Lesson Day 01
+        Lesson Day 01 to Day 02
 OOP 1
 * OOP Theories
 * Double Linked List
 * People Management System
+
+### Day 11
+    Week 06:
+        Lesson Day 01
+OOP 1
+* Double Linked List - changed
+
 _____________________________________
     for further information please have a look at the Git commit`s
 _____________________________________
