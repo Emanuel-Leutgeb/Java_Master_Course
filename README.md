@@ -93,6 +93,22 @@ OOP 1
 OOP 1
 * Double Linked List - changed
 
-_____________________________________
+### Day 12
+    Week 07:
+        Lesson Day 01
+OOP 2
+* Stack
+* Queue
+* Camera
+* Lens
+
+### Day 13
+    Week 07:
+        Lesson Day 01
+Main
+* Project setup cleaned
+* Double Linked List Two 
+
+___
     for further information please have a look at the Git commit`s
-_____________________________________
+___

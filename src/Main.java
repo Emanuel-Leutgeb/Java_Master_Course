@@ -1,4 +1,5 @@
 import OOP_1.*;
+import Testing.Testing;
 
 public class Main {
 
@@ -76,6 +77,32 @@ public class Main {
 //        System.out.println(doubleLinkedList);
 //        doubleLinkedList.clear();
 //        System.out.println(doubleLinkedList);
+//
+//        //With typ "T"
+//        DoubleLinkedListTwo doubleLinkedListTwo = new DoubleLinkedListTwo<>();
+//        doubleLinkedListTwo.add(10);
+//        doubleLinkedListTwo.add(20);
+//        doubleLinkedListTwo.add(30);
+//        doubleLinkedListTwo.add(40);
+//        doubleLinkedListTwo.add(50);
+//        doubleLinkedListTwo.add(60);
+//        doubleLinkedListTwo.add(70);
+//        doubleLinkedListTwo.add(80);
+//        doubleLinkedListTwo.add(90);
+//        doubleLinkedListTwo.add(10.0);
+//        doubleLinkedListTwo.add("String is also Working with 'T'!");
+//        System.out.println(doubleLinkedListTwo);
+//        System.out.println(doubleLinkedListTwo.get(0));
+//        System.out.println(doubleLinkedListTwo.getReverse(0));
+//        doubleLinkedListTwo.printReverse();
+//        System.out.println("Is the number 10.0 inside of the list? ... " + doubleLinkedListTwo.contains(10.0));
+//        System.out.println(doubleLinkedListTwo);
+//        doubleLinkedListTwo.remove(0);
+//        System.out.println(doubleLinkedListTwo);
+//        doubleLinkedListTwo.removeReverse(0);
+//        System.out.println(doubleLinkedListTwo);
+//        doubleLinkedListTwo.clear();
+//        System.out.println(doubleLinkedListTwo);
 //
 //        //Week 06 - Day 02
 //        PeopleManagementSystem peopleManagementSystem = new PeopleManagementSystem();

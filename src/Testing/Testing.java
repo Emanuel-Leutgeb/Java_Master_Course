@@ -1,8 +1,8 @@
 package Testing;
 
 public class Testing {
-    Testing(){
-        
-    }
 
+    public void testing() {
+
+    }
 }
