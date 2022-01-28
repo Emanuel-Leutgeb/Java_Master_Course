@@ -1,7 +1,4 @@
-import OOP_1.DoubleLinkedList;
-import OOP_1.PeopleManagementSystem;
-import OOP_1.Sex;
-import Testing.Testing;
+import OOP_1.*;
 
 public class Main {
 
@@ -57,19 +54,28 @@ public class Main {
 //        //Week 06 - Day 01
 //        DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
 //        doubleLinkedList.add(10);
-//        doubleLinkedList.print();
 //        doubleLinkedList.add(20);
 //        doubleLinkedList.add(30);
 //        doubleLinkedList.add(40);
 //        doubleLinkedList.add(50);
-//        doubleLinkedList.print();
+//        doubleLinkedList.add(60);
+//        doubleLinkedList.add(70);
+//        doubleLinkedList.add(80);
+//        doubleLinkedList.add(90);
+//        doubleLinkedList.add(100);
+//        System.out.println(doubleLinkedList);
+//        System.out.println(doubleLinkedList.get(0));
+//        System.out.println(doubleLinkedList);
+//        System.out.println(doubleLinkedList.getReverse(0));
 //        doubleLinkedList.printReverse();
-//        doubleLinkedList.size();
-//        doubleLinkedList.contains(10);
-//        doubleLinkedList.remove(3);
-//        doubleLinkedList.print();
+//        System.out.println(doubleLinkedList.size());
+//        System.out.println("Is the number 50 inside of the list? ... " + doubleLinkedList.contains(50));
+//        doubleLinkedList.remove(0);
+//        System.out.println(doubleLinkedList);
+//        doubleLinkedList.removeReverse(0);
+//        System.out.println(doubleLinkedList);
 //        doubleLinkedList.clear();
-//        doubleLinkedList.print();
+//        System.out.println(doubleLinkedList);
 //
 //        //Week 06 - Day 02
 //        PeopleManagementSystem peopleManagementSystem = new PeopleManagementSystem();
@@ -78,23 +84,81 @@ public class Main {
 //        peopleManagementSystem.createPerson("Emanuel", 25, "27.09.1996");
 //
 //        //Week 07 - Day 01
-        Testing testing = new Testing();
-        testing.add(10);
-        testing.add(20);
-        testing.add(30);
-        testing.add(40);
-        testing.add(50);
-        testing.size();
-        System.out.println("Print Forward");
-        testing.print();
-        System.out.println("Print Backward");
-        testing.printReverse();
-        testing.contains(20);
-        testing.remove(-1);
-        testing.print();
-        testing.clear();
-        testing.print();
-        testing.size();
+//        DoubleLinkedList doubleLinkedList = new DoubleLinkedList();
+//        doubleLinkedList.add(10);
+//        doubleLinkedList.add(20);
+//        doubleLinkedList.add(30);
+//        doubleLinkedList.add(40);
+//        doubleLinkedList.add(50);
+//        doubleLinkedList.add(60);
+//        doubleLinkedList.add(70);
+//        doubleLinkedList.add(80);
+//        doubleLinkedList.add(90);
+//        doubleLinkedList.add(100);
+//        System.out.println(doubleLinkedList);
+//        System.out.println(doubleLinkedList.get(0));
+//        System.out.println(doubleLinkedList);
+//        System.out.println(doubleLinkedList.getReverse(0));
+//        doubleLinkedList.printReverse();
+//        System.out.println(doubleLinkedList.size());
+//        System.out.println("Is the number 50 inside of the list? ... " + doubleLinkedList.contains(50));
+//        doubleLinkedList.remove(0);
+//        System.out.println(doubleLinkedList);
+//        doubleLinkedList.removeReverse(0);
+//        System.out.println(doubleLinkedList);
+//        doubleLinkedList.clear();
+//        System.out.println(doubleLinkedList);
+//
+//        //Week 07 - Day 01
+//        Stack stack = new Stack();
+//        stack.push(10);
+//        stack.push(20);
+//        stack.push(30);
+//        stack.push(40);
+//        stack.push(50);
+//        stack.push(60);
+//        stack.push(70);
+//        stack.push(80);
+//        stack.push(90);
+//        stack.push(100);
+//        System.out.println(stack);
+//        System.out.println(stack.size());
+//        System.out.println(stack.pop());
+//        System.out.println(stack);
+//        System.out.println(stack.peek());
+//        System.out.println(stack);
+//        System.out.println(Arrays.toString(stack.pop(5)));
+//        System.out.println(stack);
+//        System.out.println(stack);
+//
+//        //Week 07 - Day 01
+//        Queue queue = new Queue();
+//        queue.enqueue(10);
+//        queue.enqueue(20);
+//        queue.enqueue(30);
+//        queue.enqueue(40);
+//        queue.enqueue(50);
+//        queue.enqueue(60);
+//        queue.enqueue(70);
+//        queue.enqueue(80);
+//        queue.enqueue(90);
+//        queue.enqueue(100);
+//        System.out.println(queue);
+//        System.out.println(queue.size());
+//        System.out.println(queue.dequeue());
+//        System.out.println(queue);
+//        System.out.println(Arrays.toString(queue.dequeue(5)));
+//        System.out.println(queue);
+//        System.out.println(queue);
+//
+//        //Week 07 - Day 02
+//        Camera cameraSony = new Camera("Sony", 12, 4.7, true, new Lens(30, 20));
+//        Camera cameraKodiak = new Camera("Kodiak", 40, 7, true, new Lens(20, 100));
+//        Camera cameraNikon = new Camera("Nikon", 20, 3, false, new Lens(10, 20));
+//        cameraNikon.getLens().setMinFocalLength(20);
+//        cameraNikon.getLens().setMaxFocalLength(10);
+//        System.out.println(Camera.instantiationCamera);
+//        System.out.println(Lens.instantiationLens);
 
     }
 }
