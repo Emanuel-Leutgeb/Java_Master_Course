@@ -1,3 +1,7 @@
+import Inheritance.Circle;
+import Inheritance.Rectangle;
+import Inheritance.Shapes;
+import Inheritance.Square;
 import OOP_1.*;
 import Testing.Testing;
 
@@ -185,7 +189,23 @@ public class Main {
 //        cameraNikon.getLens().setMinFocalLength(20);
 //        cameraNikon.getLens().setMaxFocalLength(10);
 //        System.out.println(Camera.instantiationCamera);
-//        System.out.println(Lens.instantiationLens);
+//        System.out.println(Lens.instantiationLens)
+//
+//        //Week 08 - Day 01
+        Circle circle = new Circle("red", true, 5);
+        System.out.println(circle.getArea());
+        System.out.println(circle.getPerimeter());
+//        //circle.setRadius(-5);
+//
+        Rectangle rectangle = new Rectangle("green", false, 5, 10);
+        System.out.println(rectangle.getArea());
+        System.out.println(rectangle.getPerimeter());
+//        //rectangle.setLength(-10);
+//
+        Square square = new Square("blue", true, 7);
+        System.out.println(square.getArea());
+        System.out.println(square.getPerimeter());
+//        //square.setLength(-7);
 
     }
 }
