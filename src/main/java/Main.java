@@ -1,3 +1,4 @@
+import Exceptions.CustomExceptions;
 import Inheritance.Circle;
 import Inheritance.Rectangle;
 import Inheritance.Shapes;
@@ -192,20 +193,22 @@ public class Main {
 //        System.out.println(Lens.instantiationLens)
 //
 //        //Week 08 - Day 01
-        Circle circle = new Circle("red", true, 5);
-        System.out.println(circle.getArea());
-        System.out.println(circle.getPerimeter());
+//        Circle circle = new Circle("red", true, 5);
+//        System.out.println(circle.getArea());
+//        System.out.println(circle.getPerimeter());
 //        //circle.setRadius(-5);
 //
-        Rectangle rectangle = new Rectangle("green", false, 5, 10);
-        System.out.println(rectangle.getArea());
-        System.out.println(rectangle.getPerimeter());
+//        Rectangle rectangle = new Rectangle("green", false, 5, 10);
+//        System.out.println(rectangle.getArea());
+//        System.out.println(rectangle.getPerimeter());
 //        //rectangle.setLength(-10);
 //
-        Square square = new Square("blue", true, 7);
-        System.out.println(square.getArea());
-        System.out.println(square.getPerimeter());
+//        Square square = new Square("blue", true, 7);
+//        System.out.println(square.getArea());
+//        System.out.println(square.getPerimeter());
 //        //square.setLength(-7);
 
+        //Week 09 - Day 01
+        CustomExceptions.myBasicDay();
     }
 }
