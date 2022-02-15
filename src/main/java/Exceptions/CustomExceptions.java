@@ -8,6 +8,8 @@ public class CustomExceptions {
                     MyDailyRoutine.whatTimeIsIt(hour, minute);
                 } catch (Exception e) {
                     System.out.println(e.getMessage());
+//                    e.printStackTrace();
+//                    throw new IllegalArgumentException(e);
                 }
             }
         }

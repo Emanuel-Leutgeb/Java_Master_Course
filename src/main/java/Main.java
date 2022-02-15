@@ -1,4 +1,8 @@
 import Exceptions.CustomExceptions;
+import Games.Premierleague.Controller;
+import Games.Premierleague.Export;
+import Games.Premierleague.Import;
+import Games.Premierleague.Team;
 import Inheritance.Circle;
 import Inheritance.Rectangle;
 import Inheritance.Shapes;
@@ -6,9 +10,12 @@ import Inheritance.Square;
 import OOP_1.*;
 import Testing.Testing;
 
+import java.io.IOException;
+import java.util.ArrayList;
+
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, IOException {
 //        //Testing area
 //        Testing.testing();
 //
@@ -207,8 +214,19 @@ public class Main {
 //        System.out.println(square.getArea());
 //        System.out.println(square.getPerimeter());
 //        //square.setLength(-7);
-
-        //Week 09 - Day 01
-        CustomExceptions.myBasicDay();
+//
+//        //Week 09 - Day 01
+//        CustomExceptions.myBasicDay();
+//
+//        //Week 09 - Day 02
+//        Controller controller = Import.importCSV();
+//        controller.evaluateGames();
+//        controller.calculatePoints();
+//        Export.exportCSV(controller.getTeams(), "initialGame");
+//
+//        controller.playGame();
+//        controller.printTeamStatistic();
+//
+//        Export.exportCSV(controller.getTeams(), "playedGame");
     }
 }
