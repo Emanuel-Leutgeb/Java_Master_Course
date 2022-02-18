@@ -7,15 +7,18 @@ import Inheritance.Circle;
 import Inheritance.Rectangle;
 import Inheritance.Shapes;
 import Inheritance.Square;
+import JDBC.*;
 import OOP_1.*;
 import Testing.Testing;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws InterruptedException, IOException, SQLException {
 //        //Testing area
 //        Testing.testing();
 //
@@ -223,10 +226,25 @@ public class Main {
 //        controller.evaluateGames();
 //        controller.calculatePoints();
 //        Export.exportCSV(controller.getTeams(), "initialGame");
-//
 //        controller.playGame();
 //        controller.printTeamStatistic();
-//
 //        Export.exportCSV(controller.getTeams(), "playedGame");
+//
+//        //Week 10 - Day 01
+//        PeopleManagementSystemJDBC peopleManagementSystem = new PeopleManagementSystemJDBC();
+//        PersonJDBC person02 = peopleManagementSystem.createPerson("Miriam", "Forstinger", "28.01.2001", 21, 4654, "Bad-Wimsbach", "Kößlwang 6", SexJDBC.FEMALE);
+//        peopleManagementSystem.createPerson("Emanuel", 25, "27.09.1996");
+//        AddressJDBC address02 = new AddressJDBC(4020, "Linz", "Peter-Behren-Platz 6");
+//        Connection connection = new DatabaseConnection().getDatabaseConnection();
+//        DatabaseController databaseController = new DatabaseController(connection);
+//        PersonJDBC personJDBC = databaseController.getPersonById(1);
+//        AddressJDBC addressJDBC = databaseController.getAddressById(1);
+//        System.out.println(personJDBC.getFirstName());
+//        System.out.println(address02.getStreet());
+//        System.out.println(databaseController.insertAddress(person02.getAddress()));
+//        System.out.println(databaseController.insertPerson(person02));
+//        System.out.println(databaseController.deleteAddress(3));
+//        System.out.println(databaseController.deletePerson(4));
+//        System.out.println(databaseController.deleteAddress(5));
     }
 }
