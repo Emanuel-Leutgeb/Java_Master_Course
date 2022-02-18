@@ -182,6 +182,24 @@ File I/O
     * Game
     * Export
 
+### Day 16
+
+    Week 10:
+        Lesson Day 01
+
+JDBC Introduction and Installation
+
+* People Management System with JDBC
+
+### Day 17
+
+    Week 10:
+        Lesson Day 01
+
+JDBC with Inheritance and OOP
+
+* People Management System with JDBC more Advanced
+
 ___
 
     for further information please have a look at the Git commit`s
